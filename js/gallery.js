@@ -1,7 +1,7 @@
 const images = [];
 
 for (let i = 1; i <= 31; i++) {
-  images.push(`gallery/${i}.jpg`);
+  images.push(`gallery/${i}.webp`);
 }
 
 const thirdImages = images.length / 3;

@@ -350,7 +350,7 @@ button {
 /** banner section **/
 
 .banner_main {
-  background: linear-gradient(#0000aaaa, #11228391), url(../images/hero.jpg);
+  background: linear-gradient(#0000aaaa, #11228391), url(../images/hero.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -639,7 +639,7 @@ button {
 .testimonial {
   margin-top: 80px;
   background: linear-gradient(#ffffffaa, #aaaaccdd),
-    url(../images/testimonials_bg.jpg);
+    url(../images/testimonials_bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
