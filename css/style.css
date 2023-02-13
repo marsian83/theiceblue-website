@@ -317,9 +317,32 @@ button {
   background: transparent;
   padding: 20px 30px;
   position: absolute;
-  background-color: #00000033;
+  background-color: #00000055;
   border-bottom: 1px solid black;
   backdrop-filter: blur(10px);
+}
+
+.video-yt {
+  width: 40vw;
+  height: 500px;
+  border-radius: 1rem;
+}
+
+.nearby-locations {
+  width: 100%;
+  padding: 0 14vw 0 14vw;
+}
+
+@media only screen and (max-width:780px) {
+  .nearby-locations{
+    padding: 0 3vw 0 3vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .video-yt {
+    width: 80vw;
+  }
 }
 
 .logo a {
