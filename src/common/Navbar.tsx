@@ -10,7 +10,7 @@ export default function Navbar() {
       <Link to="/" className="text-4xl font-bold scale-y-110 text-front">
         The Ice Blue
       </Link>
-      <div className="flex gap-x-12">
+      <div className="flex gap-x-12 mobile:hidden">
         {[
           { title: "About", to: "/#about" },
           { title: "Contact Us", to: "#contact" },

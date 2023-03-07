@@ -17,11 +17,9 @@ module.exports = {
         "5rem": "5rem",
         "10rem": "10rem",
       },
-      padding: {
-        page: "0 10vw 0 10vw",
-      },
-      margin: {
-        page: "0 10vw 0 10vw",
+      screens: {
+        mobile: { max: "780px" },
+        widescreen: { min: "780px" },
       },
       fontFamily: {
         raleway: "'Raleway', sans-serif",

@@ -29,9 +29,9 @@ export default function GalleryPage() {
       <div className="h-[10vh]" />
       <div className="flex p-page">
         {galleryThirds.map((images) => (
-          <div className="flex flex-col w-1/3">
+          <div className="flex flex-col w-1/3 mobile:w-1/2" style={{display : galleryThirds.indexOf(images)==2 ? 'none' : ''}}>
             {images.map((image) => (
-              <img src={image} className="p-2 rounded-2xl"></img>
+              <img src={image} className="p-2 rounded-2xl mobile:p-1"></img>
             ))}
           </div>
         ))}

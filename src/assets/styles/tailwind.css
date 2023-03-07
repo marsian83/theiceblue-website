@@ -9,4 +9,12 @@
     .btn-2{
         @apply bg-primary text-back px-12 py-4 text-lg rounded-lg duration-500 delay-75 hover:rounded-5rem hover:bg-primary
     }
+
+    .p-page{
+        @apply px-[10vw] mobile:px-[4vw]
+    }
+
+    .m-page{
+        @apply mx-[10vw] mobile:mx-[4vw]
+    }
 }

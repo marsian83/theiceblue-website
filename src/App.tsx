@@ -51,7 +51,7 @@ function Root() {
         h-screen flex justify-center items-center"
         style={{ opacity: loading ? 100 : 0 }}
       >
-        <h2 className="text-white text-7xl font-bold font-mono">Loading...</h2>
+        <h2 className="text-white text-7xl font-bold font-mono mobile:italic mobile:text-5xl" style={{textShadow:"0px 0px 8px black"}}>Loading...</h2>
       </div>
     </main>
   );

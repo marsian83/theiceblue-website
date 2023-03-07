@@ -12,9 +12,9 @@ export default function LandingPage() {
         of Himalayan peaks, lush forests, and beautiful rivers in this serene guest house. Come and experience the beauty of the Parvati Valley."
       />
       <div className="h-[10vh]" />
-      <section className="p-page flex">
+      <section className="p-page flex mobile:flex-col-reverse">
         <div className="basis-1/2 py-20">
-          <div className="text-5xl flex flex-col gap-y-2">
+          <div className="text-5xl flex flex-col gap-y-2 mobile:text-4xl">
             <h2>Choose The Perfect</h2>
             <h2 className="font-bold">Accommodation</h2>
           </div>
@@ -32,31 +32,31 @@ export default function LandingPage() {
             <img
               src="/images/presentation/2.webp"
               alt=""
-              className="h-1/2 w-full object-cover p-3"
+              className="h-1/2 w-full object-cover p-3 mobile:p-1"
             />
             <div className="h-1/2 flex">
               <img
                 src="/images/presentation/3.webp"
                 alt=""
-                className="w-1/2 aspect-square object-cover p-3"
+                className="w-1/2 aspect-square object-cover p-3 mobile:p-1"
               />
               <img
                 src="/images/presentation/4.webp"
                 alt=""
-                className="w-1/2 aspect-square object-cover p-3"
+                className="w-1/2 aspect-square object-cover p-3 mobile:p-1"
               />
             </div>
           </div>
         </div>
       </section>
       <div className="h-[10vh]"></div>
-      <section className="p-page flex flex-row-reverse">
-        <div className="basis-1/2 py-20 flex flex-col items-end">
-          <div className="text-5xl flex flex-col gap-y-2 text-right">
+      <section className="p-page flex flex-row-reverse mobile:flex-col-reverse">
+        <div className="basis-1/2 py-20 flex flex-col widescreen:items-end">
+          <div className="text-5xl flex flex-col gap-y-2 widescreen:text-right mobile:text-4xl">
             <h2>Our Traditional</h2>
             <h2 className="font-bold">Meals</h2>
           </div>
-          <p className="font-medium text-[17px] leading-8 text-mute py-10 text-right">
+          <p className="font-medium text-[17px] leading-8 text-mute py-10 widescreen:text-right">
             At The Ice Blue, we believe that a memorable stay includes delicious
             and authentic cuisine. That's why we serve meals in the traditional
             Indian manner, allowing guests to enjoy their food while sitting on
@@ -74,7 +74,7 @@ export default function LandingPage() {
         </div>
       </section>
       <div className="h-[10vh]"></div>
-      <section className="p-page bg-slate-700 flex items-center" id="about">
+      <section className="p-page bg-slate-700 flex items-center mobile:flex-col" id="about">
         <div className="basis-1/2 text-back flex flex-col gap-y-4 py-12">
           <h2 className="text-[55px] font-bold leading-tight">
             About Our Guest House
@@ -90,9 +90,9 @@ export default function LandingPage() {
             Valley at The Ice Blue.
           </p>
         </div>
-        <div className="basis-1/2 pl-8">
+        <div className="basis-1/2 widescreen:pl-8">
           <iframe
-            className="w-[40vw] h-[500px] rounded-2xl my-28"
+            className="w-[40vw] h-[500px] rounded-2xl my-28 mobile:my-14 mobile:w-[80vw]"
             src="https://www.youtube.com/embed/G5OaJx5VX7U"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -102,7 +102,7 @@ export default function LandingPage() {
         </div>
       </section>
       <section className="p-page py-10">
-        <h1 className="text-5xl font-semibold text-center">Nearby Locations</h1>
+        <h1 className="text-5xl font-semibold text-center mobile:text-4xl">Nearby Locations</h1>
         <img
           src="/images/nearby-locations.jpg"
           draggable={false}
@@ -120,7 +120,7 @@ export default function LandingPage() {
         <h1 className="text-front text-5xl font-semibold text-center my-14">
           Testimonials
         </h1>
-        <div className="flex">
+        <div className="flex mobile:flex-col">
           {[
             {
               content:
