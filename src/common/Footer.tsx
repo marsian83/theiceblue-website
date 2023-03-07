@@ -19,7 +19,8 @@ export default function Footer() {
         </div>
         <section id="contact" className="basis-1/2 relative">
           <form
-            action=""
+            action="https://formspree.io/f/xvonkabo"
+            method="POST"
             className="absolute left-10 w-11/12 top-0 -translate-y-1/4 bg-primary rounded-4xl flex flex-col px-8 py-14 gap-y-8"
           >
             {[

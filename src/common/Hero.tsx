@@ -1,12 +1,12 @@
 import React from "react";
 
 interface HeroProps {
-    title: string;
-    subtitle: string;
-    description: string;
+  title: string;
+  subtitle: string;
+  description: string;
 }
 
-export default function Hero(props:HeroProps) {
+export default function Hero(props: HeroProps) {
   return (
     <section className="h-[90vh] relative p-page bg-[url('/images/hero-banner.webp')] bg-cover bg-center flex flex-col justify-center items-center">
       <div
@@ -24,7 +24,8 @@ export default function Hero(props:HeroProps) {
       </p>
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full">
         <form
-          action=""
+          action="https://formspree.io/f/xjvdywgr"
+          method="POST"
           className="bg-background w-auto m-page pt-8 flex gap-x-12 rounded-t-4xl items-end justify-center"
         >
           {[
