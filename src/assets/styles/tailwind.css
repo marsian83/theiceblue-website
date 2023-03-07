@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn-1{
+        @apply bg-foreground text-back px-12 py-4 text-lg rounded-lg duration-500 delay-75 hover:rounded-5rem hover:bg-primary
+    }
+    .btn-2{
+        @apply bg-primary text-back px-12 py-4 text-lg rounded-lg duration-500 delay-75 hover:rounded-5rem hover:bg-primary
+    }
+}
