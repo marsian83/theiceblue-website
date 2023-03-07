@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Hero from "../../common/Hero";
 
 export default function LandingPage() {
@@ -24,7 +25,7 @@ export default function LandingPage() {
             comfortable beds, modern amenities, and stunning mountain views.
             Book now for a memorable stay.
           </p>
-          <button className="btn-1">See More</button>
+          <Link to="/gallery" className="btn-1">See More</Link>
         </div>
         <div className="basis-1/2 flex flex-col justify-center">
           <div className="flex flex-col aspect-square overflow-hidden">
