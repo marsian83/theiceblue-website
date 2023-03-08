@@ -70,7 +70,7 @@ export default function Hero(props: HeroProps) {
           </form>
         </div>
       </section>
-      <div className="h-96" />
+      <div className="h-96 widescreen:hidden" />
     </>
   );
 }
