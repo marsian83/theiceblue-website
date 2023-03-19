@@ -25,7 +25,9 @@ export default function LandingPage() {
             comfortable beds, modern amenities, and stunning mountain views.
             Book now for a memorable stay.
           </p>
-          <Link to="/gallery" className="btn-1">See More</Link>
+          <Link to="/gallery" className="btn-1">
+            See More
+          </Link>
         </div>
         <div className="basis-1/2 flex flex-col justify-center">
           <div className="flex flex-col aspect-square overflow-hidden">
@@ -67,14 +69,139 @@ export default function LandingPage() {
             snack or a full-blown feast, we've got you covered. Come and
             experience the taste of India at The Ice Blue.
           </p>
-          <button className="btn-1">Read More</button>
+          <Link to="https://nomadparadise.com/indian-foods/" className="btn-1">
+            Read More
+          </Link>
         </div>
         <div className="basis-1/2 flex flex-col justify-center">
           <img src="/images/presentation/1.webp" alt="" className="p-3" />
         </div>
       </section>
       <div className="h-[10vh]"></div>
-      <section className="p-page bg-slate-700 flex items-center mobile:flex-col" id="about">
+      <section className="p-page flex mobile:flex-col-reverse">
+        <div className="basis-1/2 py-20">
+          <div className="text-5xl flex flex-col gap-y-2 mobile:text-4xl">
+            <h2>Enjoy the pleassures of</h2>
+            <h2 className="font-bold">Yoga</h2>
+          </div>
+          <p className="font-medium text-[17px] leading-8 text-mute py-10">
+            Yoga was a gift to the world by India and The Ice Blue takes pride
+            in it. We ensure your yoga needs are met and we always support and
+            enable youga in our premises Book now for a memorable stay. Enjoy
+            the pleasures and delights of yoga at our guesthouse whose location
+            only makes the yoga feel a thousand times more relaxing and calimg
+          </p>
+          <Link
+            to="https://images.everydayhealth.com/images/healthy-living/fitness/all-about-yoga-mega-722x406.jpg"
+            className="btn-1"
+          >
+            Read More
+          </Link>
+        </div>
+        <div className="basis-1/2 flex flex-col justify-center">
+          <div className="flex flex-col aspect-square overflow-hidden justify-center">
+            <img
+              src="https://images.everydayhealth.com/images/healthy-living/fitness/all-about-yoga-mega-722x406.jpg"
+              alt=""
+              className="w-full object-cover p-3 mobile:p-1"
+            />
+          </div>
+        </div>
+      </section>
+      <div className="h-[10vh]"></div>
+      <section className="relative h-[60vh] overflow-hidden flex flex-col justify-evenly">
+        <img
+          src="https://img.freepik.com/free-vector/female-doing-yoga-meditation-mandala-background_1017-38763.jpg?w=996&t=st=1679214010~exp=1679214610~hmac=59ce0b8cf474e6b761328b7c02cdf5662d7b0aecda8d91682df7424615400e80"
+          alt="meditation"
+          className="absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 h-4/5 mobile:h-1/2 -z-[1]"
+          style={{ animation: "meditator-float 4000ms infinite" }}
+        />
+        <img
+          src="https://img.freepik.com/free-vector/female-doing-yoga-meditation-mandala-background_1017-38763.jpg?w=996&t=st=1679214010~exp=1679214610~hmac=59ce0b8cf474e6b761328b7c02cdf5662d7b0aecda8d91682df7424615400e80"
+          alt="meditation"
+          className="absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 h-4/5 mobile:h-1/2 -z-[1]"
+          style={{ animation: "meditator-float 4000ms infinite" }}
+        />
+        <div className="flex flex-col items-center">
+          <h1 className="italic text-6xl">Meditation</h1>
+          <h2 className="italic text-3xl font-extralight">is in the air</h2>
+          <p className="py-12 w-1/2 text-center text-lg mobile:w-full mobile:mix-blend-exclusion mobile:text-pink-500">
+            The Iced Blue is located at a peaceful and serene valley to provide
+            you with the best environment for meditation we completely enable
+            and accomodate meditation activities at our guesthouse and it almost
+            feels like a given.
+          </p>
+        </div>
+      </section>
+      <section className="py-14 p-page">
+        <div className="text-center">
+          <h1 className="text-5xl font-light">Experience the adventures of</h1>
+          <h2 className="text-5xl font-bold">Trekking</h2>
+        </div>
+        <div className="flex my-10 overflow-hidden mobile:flex-col rounded-3xl duration-500 hover:rounded-lg">
+          <div className="group relative w-1/2 mobile:w-full overflow-hidden">
+            <div
+              className="absolute top-0 left-0 w-full h-full z-[1] opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0
+              duration-300 text-center text-white flex flex-col justify-end text-3xl font-semibold py-3"
+              style={{
+                background:
+                  "linear-gradient(to bottom, transparent, #00000043)",
+              }}
+            >
+              Sar Pass Trek
+            </div>
+            <img
+              src="https://www.lazymonkadventure.com/wp-content/uploads/2021/10/Kasol-Kheerganga-Trek-3-scaled.jpg"
+              alt="kheerganga"
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="group relative w-1/2 mobile:w-full overflow-hidden">
+            <div
+              className="absolute top-0 left-0 w-full h-full z-[1] opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0
+              duration-300 text-center text-white flex flex-col justify-end text-3xl font-semibold py-3"
+              style={{
+                background:
+                  "linear-gradient(to bottom, transparent, #00000043)",
+              }}
+            >
+              Kheergana Trek
+            </div>
+            <img
+              src="https://admin.banbanjara.com/public/frontend/uploads/product/1583487125495-familytrekkingsarpass.jpg"
+              alt="sar pass"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex mobile:flex-col">
+          <p className="w-1/2 pr-4 mobile:w-full">
+            The Sar Pass Trek is a moderately challenging trek in Himachal
+            Pradesh, India, popular among adventure seekers and nature lovers.
+            The trek passes through dense forests, beautiful meadows, and
+            charming villages, offering stunning views of the snow-capped
+            Himalayan range. Starting from Kasol, the trek covers around 48 km
+            in 4 nights and 5 days, crossing the Sar Pass at 4,220 metres above
+            sea level before ending in Barsheni. The best time to go is from
+            April-June and September-November to avoid monsoon risks.
+          </p>
+          <hr className="widescreen:hidden my-5" />
+          <p className="w-1/2 mobile:w-full">
+            Kheerganga Trek is a popular trekking route in Himachal Pradesh,
+            India, offering a moderate challenge for trekkers. The trail takes
+            you through scenic forests, natural hot water springs, and beautiful
+            landscapes, with stunning views of the Parvati Valley. Starting from
+            Barsheni, the trek covers around 12 km and takes approximately 2
+            days to complete. The best time to go is from April-June and
+            September-November to avoid monsoon risks. Come visit the iced blue
+            for a fully enabled trekking at Kheerganga
+          </p>
+        </div>
+      </section>
+      <section
+        className="p-page bg-slate-700 flex items-center mobile:flex-col"
+        id="about"
+      >
         <div className="basis-1/2 text-back flex flex-col gap-y-4 py-12">
           <h2 className="text-[55px] font-bold leading-tight">
             About Our Guest House
@@ -102,7 +229,9 @@ export default function LandingPage() {
         </div>
       </section>
       <section className="p-page py-10">
-        <h1 className="text-5xl font-semibold text-center mobile:text-4xl">Nearby Locations</h1>
+        <h1 className="text-5xl font-semibold text-center mobile:text-4xl">
+          Nearby Locations
+        </h1>
         <img
           src="/images/nearby-locations.jpg"
           draggable={false}

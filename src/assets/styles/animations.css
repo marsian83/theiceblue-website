@@ -1,0 +1,125 @@
+@keyframes meditator-float {
+  0% {
+    @apply -translate-y-[50%];
+  }
+  2.5% {
+    @apply -translate-y-[50.1%];
+  }
+  5% {
+    @apply -translate-y-[50.2%];
+  }
+  7.5% {
+    @apply -translate-y-[50.3%];
+  }
+  10% {
+    @apply -translate-y-[50.4%];
+  }
+  12.5% {
+    @apply -translate-y-[50.5%];
+  }
+  15% {
+    @apply -translate-y-[50.6%];
+  }
+  17.5% {
+    @apply -translate-y-[50.7%];
+  }
+  20% {
+    @apply -translate-y-[50.8%];
+  }
+  22.5% {
+    @apply -translate-y-[50.9%];
+  }
+  25% {
+    @apply -translate-y-[51%];
+  }
+  27.5% {
+    @apply -translate-y-[50.9%];
+  }
+  30% {
+    @apply -translate-y-[50.8%];
+  }
+  32.5% {
+    @apply -translate-y-[50.7%];
+  }
+  35% {
+    @apply -translate-y-[50.6%];
+  }
+  37.5% {
+    @apply -translate-y-[50.5%];
+  }
+  40% {
+    @apply -translate-y-[50.4%];
+  }
+  42.5% {
+    @apply -translate-y-[50.3%];
+  }
+  45% {
+    @apply -translate-y-[50.2%];
+  }
+  47.5% {
+    @apply -translate-y-[50.1%];
+  }
+  50% {
+    @apply -translate-y-[50%];
+  }
+  52.5% {
+    @apply -translate-y-[50.1%];
+  }
+  55% {
+    @apply -translate-y-[49.8%];
+  }
+  57.5% {
+    @apply -translate-y-[49.7%];
+  }
+  60% {
+    @apply -translate-y-[49.6%];
+  }
+  62.5% {
+    @apply -translate-y-[49.5%];
+  }
+  65% {
+    @apply -translate-y-[49.4%];
+  }
+  67.5% {
+    @apply -translate-y-[49.3%];
+  }
+  70% {
+    @apply -translate-y-[49.2%];
+  }
+  72.5% {
+    @apply -translate-y-[49.1%];
+  }
+  75% {
+    @apply -translate-y-[49.0%];
+  }
+  77.5% {
+    @apply -translate-y-[49.1%];
+  }
+  80% {
+    @apply -translate-y-[49.2%];
+  }
+  82.5% {
+    @apply -translate-y-[49.3%];
+  }
+  85% {
+    @apply -translate-y-[49.4%];
+  }
+  87.5% {
+    @apply -translate-y-[49.5%];
+  }
+  90% {
+    @apply -translate-y-[49.6%];
+  }
+  92.5% {
+    @apply -translate-y-[49.7%];
+  }
+  95% {
+    @apply -translate-y-[49.8%];
+  }
+  97.5% {
+    @apply -translate-y-[49.9%];
+  }
+  100% {
+    @apply -translate-y-[50%];
+  }
+}
